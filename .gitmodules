@@ -1,0 +1,6 @@
+[submodule "hiveclient"]
+	path = hiveclient
+	url = https://www.github.com/ashishkumar4/hiveclient
+[submodule "hiveweb"]
+	path = hiveweb
+	url = https://github.com/AshishKumar4/hiveweb
