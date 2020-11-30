@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liveness App!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+          The Hive v1.0
+      </h1>
+      <div class="container">
+        <h2>Clients: </h2>
+
+      </div>
+      <div class="container">
+        <div class="container">
+          <h2>All Pending Experiments: </h2>
+
+        </div>
+
+        <div class="container">
+          <h2>Experiments in the Running Queue: </h2>
+          
+        </div>
+
+        <div class="container">
+          <h2>Experiments in the Completed Queue: </h2>
+          
+        </div>
+
+        <div class="container">
+          <h2>Add Experiment: </h2>
+          <form action="/dashboard" method="POST">
+            <div class="field">
+              <label class="label">
+                  Arguments:
+                  <input class="input" type="text" name="arguments"/>
+              </label>
+            </div>
+            <div class="field">
+              <label class="label">
+                  Number of runs:
+                  <input class="input" type="text" name="arguments"/>
+              </label>
+            </div>
+            <input class="button is-success" type="submit" value="submit"/>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
